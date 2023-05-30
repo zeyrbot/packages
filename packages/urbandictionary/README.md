@@ -1,9 +1,29 @@
-# @zeyrbot/urbandictionary
-Zeyr's custom urbandictionary api wrapper with basic methods
+<h1 align="center">@zeyrbot/urbandictionary</h1>
+<p>
+  <a href="https://www.npmjs.com/package/@zeyrbot/urbandictionary" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@zeyrbot/urbandictionary.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/ruunao" target="_blank">
+    <img alt="Twitter: ruunao" src="https://img.shields.io/twitter/follow/ruunao.svg?style=social" />
+  </a>
+</p>
 
-> Please note that this wrapper is work in progress and may not work as expected
+> A wrapper made for urban dictionary api
 
-# Usage
+### 🏠 [Homepage](https://github.com/zeyrbot/packages/tree/main/packages/urbandictionary)
+
+### ✨ [NPM](https://www.npmjs.com/package/@zeyrbot/urbandictionary)
+
+## Install
+
+```sh
+pnpm add @zeyrbot/urbandictionary
+```
+
+## Usage
 ```ts
 import { Client as UDClient } from "@zeyrbot/urbandictionary"
 
@@ -30,3 +50,18 @@ const woosh = ud.define("woosh")
 }
 */
 ```
+
+## Author
+
+👤 **@ruunao**
+
+* Twitter: [@ruunao](https://twitter.com/ruunao)
+* Github: [@ruunao](https://github.com/ruunao)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/zeyrbot/packages/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
