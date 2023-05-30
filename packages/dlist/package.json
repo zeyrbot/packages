@@ -1,0 +1,16 @@
+{
+	"name": "@zeyrbot/dlist",
+	"version": "1.0.0",
+	"description": "A wrapper made for discordlist.gg api",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "@ruunao",
+	"license": "ISC",
+	"dependencies": {
+		"@sapphire/fetch": "^2.4.1",
+		"tslib": "^2.5.2"
+	}
+}
