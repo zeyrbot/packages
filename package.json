@@ -9,7 +9,8 @@
 		"postinstall": "husky install .github/husky",
 		"lint": "pnpm rome check .",
 		"format": "pnpm rome format . --write",
-		"dlist": "pnpm --filter @zeyrbot/dlist"
+		"dlist": "pnpm --filter @zeyrbot/dlist",
+		"ud": "pnpm --filter @zeyrbot/urbandictionary"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.6.3",

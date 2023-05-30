@@ -47,6 +47,15 @@ importers:
         specifier: ^2.5.2
         version: 2.5.2
 
+  packages/urbandictionary:
+    dependencies:
+      '@sapphire/fetch':
+        specifier: ^2.4.1
+        version: 2.4.1
+      tslib:
+        specifier: ^2.5.2
+        version: 2.5.2
+
 packages:
 
   /@babel/code-frame@7.12.11:

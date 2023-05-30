@@ -1,0 +1,19 @@
+{
+	"name": "@zeyrbot/urbandictionary",
+	"version": "1.0.1",
+	"description": "A wrapper made for urban dictionary api",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc -b .",
+		"clean": "tsc -b . --clean",
+		"watch": "tsc -b . -w"
+	},
+	"files": ["dist/**/*.js*", "dist/**/*.mjs*", "dist/**/*.d*"],
+	"keywords": ["ud", "discord", "dictionary", "urban"],
+	"author": "@ruunao",
+	"license": "ISC",
+	"dependencies": {
+		"@sapphire/fetch": "^2.4.1",
+		"tslib": "^2.5.2"
+	}
+}
