@@ -1,4 +1,4 @@
-# @zeyrbot/dlist
+# @zeyrbot/urbandictionary
 Zeyr's custom urbandictionary api wrapper with basic methods
 
 > Please note that this wrapper is work in progress and may not work as expected

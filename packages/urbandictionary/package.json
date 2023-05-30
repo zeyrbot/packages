@@ -1,6 +1,6 @@
 {
 	"name": "@zeyrbot/urbandictionary",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A wrapper made for urban dictionary api",
 	"main": "dist/index.js",
 	"scripts": {
