@@ -3,6 +3,10 @@ export interface Options {
 	token: string;
 }
 
+export interface Fail {
+	message: string;
+}
+
 export interface Bot {
 	allTimeVotes: string;
 	avatar: string;
