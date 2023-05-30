@@ -1,6 +1,6 @@
 {
 	"name": "@zeyrbot/dlist",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A wrapper made for discordlist.gg api",
 	"main": "dist/index.js",
 	"scripts": {
