@@ -10,7 +10,8 @@
 		"lint": "pnpm rome check .",
 		"format": "pnpm rome format . --write",
 		"dlist": "pnpm --filter @zeyrbot/dlist",
-		"ud": "pnpm --filter @zeyrbot/urbandictionary"
+		"ud": "pnpm --filter @zeyrbot/urbandictionary",
+		"mdn": "pnpm --filter @zeyrbot/mdn"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.6.3",

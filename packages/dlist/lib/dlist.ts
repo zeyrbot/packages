@@ -1,14 +1,13 @@
 import { fetch, FetchMethods, FetchResultTypes } from "@sapphire/fetch";
 import type { Bot, Fail, Options } from "./types";
 
-const URL = "https://api.discordlist.gg/v0";
-
 export class Client {
 	options: Options;
-
 	constructor(options: Options) {
 		this.options = options;
 	}
+
+	private readonly url: string = "https://api.discordlist.gg/v0";
 
 	/**
 	 * Get a single bot from the API.
@@ -28,7 +27,7 @@ export class Client {
 		};
 
 		return fetch<Bot | Fail>(
-			`${URL}/bots/${botId}`,
+			`${this.url}/bots/${botId}`,
 			requestOptions,
 			FetchResultTypes.JSON,
 		);
@@ -52,7 +51,7 @@ export class Client {
 		};
 
 		return fetch<boolean>(
-			`${URL}/bots/${this.options.id}/guilds`,
+			`${this.url}/bots/${this.options.id}/guilds`,
 			requestOptions,
 			FetchResultTypes.JSON,
 		);
